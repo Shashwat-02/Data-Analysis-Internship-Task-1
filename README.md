@@ -4,13 +4,19 @@ my_list = [1, 2, 3, 4, 5]
 
 print("List:", my_list)
 
+Adding of element
+
 my_list.append(6)
 
 print("After adding element to list:", my_list)
 
+Removing of element
+
 my_list.remove(3)
 
 print("After removing element from list:", my_list)
+
+Modifying of element
 
 my_list[2] = 10
 
@@ -22,13 +28,19 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 
 print("Dictionary:", my_dict)
 
+Adding of element
+
 my_dict['d'] = 4
 
 print("After adding element to dictionary:", my_dict)
 
+Removing of element
+
 del my_dict['b']
 
 print("After removing element from dictionary:", my_dict)
+
+Modifying of element
 
 my_dict['a'] = 100
 
@@ -40,9 +52,13 @@ my_set = {1, 2, 3, 4, 5}
 
 print("Set:", my_set)
 
+Adding of element
+
 my_set.add(6)
 
 print("After adding element to set:", my_set)
+
+Removing of element
 
 my_set.remove(3)
 
