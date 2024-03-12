@@ -63,3 +63,5 @@ print("After adding element to set:", my_set)
 my_set.remove(3)
 
 print("After removing element from set:", my_set)
+
+//Modification of element in a set is not allowed as elements of set are in sorted order. So if modification is allowed then sorting order can not be maintained.//
